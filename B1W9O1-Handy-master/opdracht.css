@@ -1,0 +1,372 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Archivo', sans-serif;
+}
+
+.pagina{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.pagina_sub{
+	margin: 0 auto;
+	max-width: 1000px; 
+}
+
+.logo{
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.menu{
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a, .dropbtn{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+  background-color: yellow;
+  color: black;
+}
+
+li.dropdown{
+  display: inline-block;
+  max-width: 950px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: black;
+  max-width: 160px;
+}
+
+.dropdown-content a{
+  color: grey;
+  padding: 12px 16px;
+  font-size: 16px;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+	background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.header{
+	width: 100%;
+	position: absolute;
+	float: left;
+	background-image: url("img/header.jpg");
+	height: 350px;
+	background-size: cover;
+	z-index: -1;
+	margin-top: 60px;
+}
+
+.banner{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    float:left;
+    margin-top:350px;
+    padding:30px 0px 50px 0px;
+}
+
+.banner_sub{
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    max-width:1000px;
+    margin:0 auto;
+    column-gap:50px;
+}
+
+.banner1{
+    background-image:url("img/banner-1.jpg"); 
+    width:300px;
+    height:220px;
+}
+
+.banner2{
+    background-image:url("img/banner-2.jpg");
+    width:300px;
+    height:220px;
+}
+
+.banner3{
+    background-image: url("img/banner-3.jpg");
+    width:300px;
+    height:220px;
+}
+
+.banner-tekst1, .banner-tekst2, .banner-tekst3{
+    display: none;
+    width:100%;
+    height:100%;
+    background-color:#333;
+    opacity:.9;
+    text-align:center;
+    color:white;
+    font-size:22px;
+    text-transform:uppercase;
+    padding-top:99px;
+    box-sizing:border-box;
+}
+
+.banner1:hover .banner-tekst1{
+    display:block;
+}
+
+.banner2:hover .banner-tekst2{
+    display:block;
+}
+
+.banner3:hover .banner-tekst3{
+    display:block;
+}
+
+.gelebalk{
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #ffe718;
+}
+
+.gelebalk_sub{
+    margin: auto;
+    max-width: 1000px;
+    height: 120px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.gelebalk_left{
+    float: left;    
+}
+
+.gelebalk_left h1, .gelebalk_left p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+            
+.gelebalk_left p{
+    margin-left: 15px;
+}
+        
+.gelebalk_right{
+    float: right;
+}
+
+.gelebalk_right button:hover{
+	color: white;
+	background-color: #333;
+}
+
+.gelebalk_right button{
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 12px 35px;
+}
+
+.footer{
+	width: 100%;
+	position: relative;
+	padding-top: 50px;
+}
+
+.blokken{
+	float: left;
+	width: 100%;
+	position: relative;
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.blok1, .blok2, .blok3{
+	width: 300px;
+	height: 100px;
+	background-color: #ffe718;
+	display: inline-block;
+	text-align: center;
+	margin-left: 25px;
+}
+
+.blok1:hover, .blok2:hover, .blok3:hover{
+	color: white;
+	background-color: #333;
+}
+
+.icon{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.over-ons-tekst{
+	float: left;
+	width: 600px;
+}
+
+.lorem{
+	color: grey;
+	max-width: 450px;
+	float: left;
+}
+.contact_container{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 50px 0;
+}
+	
+.contact_container_sub{
+	margin: auto;
+	max-width: 900px;
+}
+	
+.contact{
+	float: right;
+	width: 220px;	
+}
+
+.map-marker{
+	color: grey;
+	display: block;
+	height: 60px;
+}
+
+.map-marker svg{
+	float: left;
+	width: 30px;
+}
+
+.map-marker p{
+	float: right;
+}
+
+.mobile{
+	color: grey;
+	display: block;
+	height: 60px;
+}
+
+.mobile svg{
+	float: left;
+	width: 30px;
+}
+
+.mobile p{
+	float: right;
+}
+
+.envelop{
+	color: grey;
+	display: block;
+	height: 60px;
+}
+
+.envelop svg{
+	float: left;
+	width: 40px;
+	padding-top: 10px;
+}
+
+.envelop p{
+	float: right;
+}
+
+.naam-balk{
+	position: relative;
+	float: left;
+	width: 100%;
+	background-color: #333;
+}
+
+.naam-balk p{
+	color: white;
+	float: right;
+	margin-right: 60px;
+}
+
+.tekst{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 300px;
+    padding: 50px 0;
+}
+    
+.tekst_sub{
+    margin: auto;
+    max-width: 1000px;
+}
+
+.teksten_hover{
+    color: #ffe718;
+    width: 90px;
+    padding: 0;
+    margin: 0;
+    display: contents;
+}
+
+.tekst_sub h1{
+    margin-top: 30px;
+}
+        
+.tekst_sub .route{
+    color: #aeb6be;
+}
+       
+.tekst_sub p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+#dropdown_container{
+    width: 80px;
+}
+
+.teksten_hover_container{
+    display: none;
+    position: absolute;
+    width: 220px;
+    color: #fff;
+    background-color: #AEB6BE;
+    font-size: 13px;
+}
+
+.teksten_hover:hover .teksten_hover_container {
+    display: block;
+}
