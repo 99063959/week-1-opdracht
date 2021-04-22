@@ -112,18 +112,25 @@ li.dropdown{
     background-image:url("img/banner-1.jpg"); 
     width:300px;
     height:220px;
+    color: white;
 }
 
 .banner2{
     background-image:url("img/banner-2.jpg");
     width:300px;
     height:220px;
+    color: white;
 }
 
 .banner3{
     background-image: url("img/banner-3.jpg");
     width:300px;
     height:220px;
+    color: white;
+}
+
+.banner-link1, .banner-link2, .banner-link3{
+  color: white;
 }
 
 .banner-tekst1, .banner-tekst2, .banner-tekst3{
@@ -185,16 +192,25 @@ li.dropdown{
     float: right;
 }
 
-.gelebalk_right button:hover{
+a{
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover{
+  color: white;
+}
+
+.gelebalk_right a:hover{
 	color: white;
 	background-color: #333;
 }
 
-.gelebalk_right button{
-    border: none;
-    background-color: white;
-    color: black;
-    padding: 12px 35px;
+.gelebalk_right a{
+  border: none;
+  background-color: white;
+  color: black;
+  padding: 12px 35px;
 }
 
 .footer{
@@ -207,9 +223,9 @@ li.dropdown{
 	float: left;
 	width: 100%;
 	position: relative;
-    bottom: 65px;
-    display: flex;
-    justify-content: center;
+  bottom: 65px;
+  display: flex;
+  justify-content: center;
 }
 
 .blok1, .blok2, .blok3{
@@ -367,6 +383,6 @@ li.dropdown{
     font-size: 13px;
 }
 
-.teksten_hover:hover .teksten_hover_container {
+.teksten_hover:hover .teksten_hover_container{
     display: block;
 }
